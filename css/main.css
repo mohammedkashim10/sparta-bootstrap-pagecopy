@@ -1,0 +1,36 @@
+.img-class {
+  height: 600px;
+  width: 100%;
+}
+
+.cont1img {
+  margin-top: 30px;
+  height: 150px;
+  width: 300px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  background-color: white;
+  padding: 5px;
+  color: white;
+}
+
+.grid-container > div {
+  background-color: rgba(37, 43, 48, 1);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  height: 220px;
+  width: 200px;
+}
+
+ .form {
+  display: flex;
+  flex-direction: column;
+}
+.subform {
+  width: 49%;
+}
