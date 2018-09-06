@@ -1,14 +1,59 @@
+/* NAVBAR */
+.navbar {
+  width: 1440px;
+  height: 95px;
+  background-color: indigo;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-brand img {
+  width: 95px;
+  height: 95px;
+  transform: translate(-14px,-36px);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 36px;
+}
+
+.nav {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 22px;
+}
+
+/* IMAGE */
 .img-class {
-  height: 600px;
+  height: 557px;
   width: 100%;
+}
+
+/* CONTAINER 1 */
+.cont1col1 {
+  color: white;
+  background-color: green;
+}
+
+.cont1col1 li {
+  padding: 5px;
 }
 
 .cont1img {
   margin-top: 30px;
-  height: 150px;
-  width: 300px;
+  height: 180px;
+  width: 315px;
+  transform: translateX(-40px);
 }
 
+/* CONTAINER 2 */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -19,7 +64,7 @@
 }
 
 .grid-container > div {
-  background-color: rgba(37, 43, 48, 1);
+  background-color: #263039;
   text-align: center;
   padding: 20px 0;
   font-size: 18px;
@@ -27,10 +72,44 @@
   width: 200px;
 }
 
- .form {
+/* FORM */
+.offset-form {
+  background-color: green;
+}
+
+.form {
   display: flex;
   flex-direction: column;
 }
+
+.form input {
+  padding: 10px;
+}
+
 .subform {
   width: 49%;
+}
+
+/* FOOTER */
+.footer-whole {
+  background-color: indigo;
+}
+
+.footer {
+  padding-top: 50px;
+  color: white;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.support {
+  color: white;
+}
+
+.support img {
+  width: 20px;
+  height: 20px;
 }
