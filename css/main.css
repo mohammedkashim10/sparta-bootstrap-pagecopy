@@ -1,0 +1,129 @@
+/* NAVBAR */
+.navbar {
+  width: 1440px;
+  height: 95px;
+  background-color: indigo;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-brand img {
+  width: 95px;
+  height: 95px;
+  transform: translate(-14px,-36px);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 36px;
+}
+
+.nav {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding-top: 22px;
+}
+
+/* IMAGE */
+.img-class {
+  height: 557px;
+  width: 100%;
+}
+
+/* CONTAINER 1 */
+.cont1col1 {
+  color: white;
+  background-color: rgba(17, 153, 51, 0.51);
+  margin-top: -64px;
+}
+
+.cont1col1 li {
+  padding: 5px;
+}
+
+.cont1img {
+  margin-top: 30px;
+  height: 180px;
+  width: 315px;
+  transform: translateX(-40px);
+}
+
+/* CONTAINER 2 */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  background-color: white;
+  padding: 5px;
+  color: white;
+}
+
+.grid-container > div {
+  background-color: #263039;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  height: 220px;
+  width: 200px;
+}
+
+/* FORM */
+.offset-form {
+  background-color: green;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  padding: 10px;
+  color: white;
+}
+
+.form input[type=text], .form input[type=email] {
+  border: none;
+  border-bottom: 2px solid indigo;
+  background-color: green;
+}
+
+.form input[type=submit] {
+  background-color: green;
+  border: 2px solid indigo;
+  width: 50%;
+  margin-left: 113px;
+}
+
+.subform {
+  width: 49%;
+}
+
+/* FOOTER */
+.footer-whole {
+  background-color: indigo;
+}
+
+.footer {
+  padding-top: 50px;
+  color: white;
+}
+
+.icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.support {
+  color: white;
+}
+
+.support img {
+  width: 20px;
+  height: 20px;
+}
