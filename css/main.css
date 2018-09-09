@@ -60,7 +60,36 @@
 
 /* Carousel */
 .carousel-container {
-  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(220, 220, 220);
+}
+
+.carousel-inner {
+  border: 2px solid rgb(180, 180, 180);
+}
+
+.carousel-inner img {
+  padding: 50px;
+}
+
+.carousel .carousel-control {
+  background-image: none;
+}
+
+.carousel .carousel-control i {
+  font-size: 3em;
+  border: 2px solid rgba(180, 180, 180);
+}
+
+.left i {
+  transform: translate(-95px, 102px);
+}
+
+.right i {
+  transform: translate(95px, 102px);
 }
 
 /* CONTAINER 2 */
@@ -84,7 +113,7 @@
 
 /* FORM */
 .offset-form {
-  background-color: green;
+  background-color: rgba(17, 153, 51);
   color: white;
 }
 
@@ -109,20 +138,21 @@
 }
 
 ::placeholder {
-  color: white;
+  color: rgba(180, 180, 180);
 }
 
 .form input[type=text], .form input[type=email] {
   border: none;
   border-bottom: 2px solid indigo;
-  background-color: green;
+  background-color: rgba(17, 153, 51);
 }
 
 .form input[type=submit] {
-  background-color: green;
+  background-color: rgba(17, 153, 51);
   border: 2px solid indigo;
   width: 50%;
   margin-left: 180px;
+  color: indigo;
 }
 
 .subform {
