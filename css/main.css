@@ -27,6 +27,7 @@
   letter-spacing: 2px;
   font-weight: 500;
   padding-top: 22px;
+  margin-right: 10px;
 }
 
 /* IMAGE */
@@ -38,8 +39,12 @@
 /* CONTAINER 1 */
 .cont1col1 {
   color: white;
-  background-color: rgba(17, 153, 51, 0.51);
+  background-color: rgba(17, 153, 51, 0.7);
   margin-top: -64px;
+  line-height: 30px;
+  font-size: 15px;
+  transform: translateY(-40px);
+  padding-top: 20px;
 }
 
 .cont1col1 li {
@@ -51,6 +56,40 @@
   height: 180px;
   width: 315px;
   transform: translateX(-40px);
+}
+
+/* Carousel */
+.carousel-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(220, 220, 220);
+}
+
+.carousel-inner {
+  border: 2px solid rgb(180, 180, 180);
+}
+
+.carousel-inner img {
+  padding: 50px;
+}
+
+.carousel .carousel-control {
+  background-image: none;
+}
+
+.carousel .carousel-control i {
+  font-size: 3em;
+  border: 2px solid rgba(180, 180, 180);
+}
+
+.left i {
+  transform: translate(-95px, 102px);
+}
+
+.right i {
+  transform: translate(95px, 102px);
 }
 
 /* CONTAINER 2 */
@@ -74,7 +113,19 @@
 
 /* FORM */
 .offset-form {
-  background-color: green;
+  background-color: rgba(17, 153, 51);
+  color: white;
+}
+
+.offset-form h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+
+.offset-form p {
+  font-size: 14px;
 }
 
 .form {
@@ -84,20 +135,24 @@
 
 .form input {
   padding: 10px;
-  color: white;
+}
+
+::placeholder {
+  color: rgba(180, 180, 180);
 }
 
 .form input[type=text], .form input[type=email] {
   border: none;
   border-bottom: 2px solid indigo;
-  background-color: green;
+  background-color: rgba(17, 153, 51);
 }
 
 .form input[type=submit] {
-  background-color: green;
+  background-color: rgba(17, 153, 51);
   border: 2px solid indigo;
   width: 50%;
-  margin-left: 113px;
+  margin-left: 180px;
+  color: indigo;
 }
 
 .subform {
@@ -107,6 +162,8 @@
 /* FOOTER */
 .footer-whole {
   background-color: indigo;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
@@ -114,16 +171,40 @@
   color: white;
 }
 
-.icon img {
-  width: 50px;
-  height: 50px;
+.icon1 i {
+  padding: 5px 5px;
+  background: #7db6df;
+  color: white;
+  border-radius: 100%;
+  transition: 0.2s;
+  transform: scale(2.2);
+}
+
+.icon2 i {
+  padding: 5px 5px;
+  background: #337ab7;
+  color: white;
+  border-radius: 100%;
+  transition: 0.2s;
+  transform: scale(2.2);
 }
 
 .support {
+  text-align: center;
+  margin-left: -20px;
+}
+
+.support a {
   color: white;
 }
 
 .support img {
   width: 20px;
   height: 20px;
+  filter: invert(100%);
+}
+
+.copy {
+  color: white;
+  margin-left: 610px;
 }
